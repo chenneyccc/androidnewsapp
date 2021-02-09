@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,17 +15,24 @@
 -->
 <resources>
     <!-- Title for the application. [CHAR LIMIT=12] -->
-    <string name="app_name">Miwok</string>
+    <string name="app_name">Soonami</string>
 
-    <!-- Category name for phrases [CHAR LIMIT=20] -->
-    <string name="category_phrases">Phrases</string>
+    <!-- Header that goes above the title of the earthquake event [CHAR LIMIT=50] -->
+    <string name="header_event">Event</string>
 
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
-    <string name="category_colors">Colors</string>
+    <!-- Header that goes above the date of the earthquake event [CHAR LIMIT=50] -->
+    <string name="header_date">Date</string>
 
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
-    <string name="category_numbers">Numbers</string>
+    <!-- Header that goes above whether or not there was a tsunami alert issued
+         during the earthquake event [CHAR LIMIT=50] -->
+    <string name="header_tsunami_alert">Tsunami Alert?</string>
 
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
-    <string name="category_family">Family Members</string>
+    <!-- Text when there was no tsunami alert issued [CHAR LIMIT=50] -->
+    <string name="alert_no">No</string>
+
+    <!-- Text when there was a tsunami alert issued [CHAR LIMIT=50] -->
+    <string name="alert_yes">Yes</string>
+
+    <!-- Text when there was a tsunami alert issued [CHAR LIMIT=50] -->
+    <string name="alert_not_available">Not available</string>
 </resources>
